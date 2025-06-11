@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<section id="formulario">
+		<h1>FORMULARIO DE REGISTRO</h1>
+		<label id="label">Complete el formulario con sus datos</label>
+		<p id="linea">&nbsp;</p>
+		<label id="label">Nombres y apellidos
+			<input type="text" name="txtnombres" id="cajas" size="60" placeholder="ingrese datos completos" required/>
+
+		</label>
+		<br>
+		<br>
+		<label id="label">DNI
+			<input type="text" name="txtdni" id="caja" size="60" placeholder="8 caracteres" required/>
+			
+		</label>
+		<br>
+		<br>
+		<label id="label">Telefono
+			<input type="tel" name="txtfono" id="caja" size="60">
+			
+		</label>
+		<br>
+		<br>
+		<label id="label">Estudios realizados</label>
+		<br>
+		<br>
+		<label id="label">
+			<input type="checkbox" name="chkprimaria" checked="checked"/>Primaria
+		</label>
+		<br>
+		<br>
+		<label id="label">
+			<input type="checkbox" name="chksecundaria" checked="checked"/>secundaria
+		</label>
+		<br>
+		<br>
+		<label id="label">
+			<input type="checkbox" name="chktecnico" checked="checked"/>Tecnico
+		</label>
+		<br>
+		<br>
+		<label id="label">
+			<input type="checkbox" name="chkuniversitario" checked="checked"/>universitario
+		</label>
+		<br>
+		<br/>
+		<label id="label">Estado Civil</label>
+		<br>
+		<br>
+		<label id="label">
+			<input type="radio" name="btnestado" value="s" checked="checked"/> Soltero
+
+		</label>
+		<br>
+		<br>
+		<label id="label">
+			<input type="radio" name="btnestado" value="c" checked="checked"/> Casado
+
+		</label>
+		<br>
+		<br>
+		<label id="label">
+			<input type="radio" name="btnestado" value="v" checked="checked"/> viudo
+
+		</label>
+		<br>
+		<br>
+		<label id="label">
+			<input type="radio" name="btnestado" value="d" checked="checked"/> Divorciado
+
+		</label>
+		<br/>
+		<br>
+		<label id="label">Provincia</label>
+		<input type="text" name="txtprovincia" list="Provincia"/>
+		<datalist id="Provincias">
+			<option value="lima"/>
+			<option value="Arequipa"/>
+			<option value="Tacna"/>
+			<option value="Trujillo"/>
+			<option value="Huancayo"/>
+			
+		</datalist>
+		<br>
+		<br>
+		<label id="label">Correo electronico
+			<input type="email" name="txtemail" id="caja" size="60"/>
+		</label>
+		<br>
+		<br>
+		<label id="label">Clave Personal
+			<input type="password" name="txtclave" size="60" id="caja" placeholder="Maximo 6 caracteres" />
+		</label>
+		<br>
+		<br>
+		<label id="label">Color de preferencia
+			<input type="color" name="txtcolor"/>
+		</label>
+		<br>
+		<br>
+		<label id="label">Fecha de nacimiento
+			<input type="datetime-local" name="txtfecha"/>
+		</label>
+		<br>
+		<br>
+		<input type="submit" value="registrar">
+		<input type="reset" value="limpiar">
+	</section>
+</body>
+</html>
